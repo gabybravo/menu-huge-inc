@@ -1,4 +1,4 @@
-nav {
+nav{
 	top: 0;
 	left: 0;
 	width: 100%;
@@ -132,7 +132,6 @@ nav ul{
 	width: 100%;
 	text-align: center;
 	visibility: hidden;
-	display: table-cell;
 	vertical-align: middle;
 	visibility: hidden;
 	transform: perspective(600px) rotateX(10deg);
@@ -162,6 +161,7 @@ nav.open ul{
 	top: 0;
 	opacity: 1;
 	margin-top: 0;
+	text-align: center;
 	visibility: visible;
 	transform: perspective(600px) rotateX(0deg);
 
@@ -190,7 +190,7 @@ nav.header-in{
 	background-color: #fff;
 }
 
-nav.solid #logo .logo{
+nav.open #logo .logo{
 	background-image: url(http://www.hugeinc.com/content/images/util/logo_white.png);
 }
 
